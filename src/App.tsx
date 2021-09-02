@@ -6,6 +6,7 @@ import Item from './item/Item';
 import Cart from './Cart/Cart';
 import { Drawer } from '@material-ui/core';
 import { LinearProgress } from '@material-ui/core';
+import { CircularProgress } from '@material-ui/core';
 import Grid from '@material-ui/core/Grid'
 import { AddShoppingCart } from '@material-ui/icons';
 import { Badge } from '@material-ui/core';
@@ -13,6 +14,7 @@ import { Badge } from '@material-ui/core';
 // Styles 
 import {Wrapper} from './App.styles'
 import { StyledButton } from './App.styles';
+import { Circularbar } from './App.styles';
 
 export type CartItems = {
   id:number;
@@ -85,7 +87,7 @@ const App = () =>  {
       ));
   };
   
-   if(isLoading) return <LinearProgress />
+   if(isLoading) return <Circularbar> <CircularProgress /> </Circularbar>
    if(error) return <div >Something went wrong...</div>
 
   return (

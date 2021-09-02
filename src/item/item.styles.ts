@@ -11,6 +11,7 @@ height: 100%;
 
 button{
     border-radius: 0 0 20px 20px;
+    border: 0.5px solid lightblue
 }
 
 img{
@@ -18,6 +19,7 @@ img{
      height:200px;
      object-fit: cover;
      border-radius: 20px 20px 0 0;
+     display:flex;
 
 }
 

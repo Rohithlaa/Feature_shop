@@ -5,10 +5,16 @@ export const Wrapper = styled.div`
  margin: 50px;
 `;
 
+export const Circularbar = styled.div`
+ position:absolute;
+ top:50%;
+ left:50%
+`
+
 export const StyledButton = styled(IconButton)`
  position: fixed;
  z-index:100;
- right:20px;
- top:20px;
+ top: 0%;
+ right: 0%
  cursor:pointer;
 `;
