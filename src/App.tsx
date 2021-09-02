@@ -5,7 +5,7 @@ import {useQuery} from 'react-query'
 import Item from './item/Item';
 import Cart from './Cart/Cart';
 import { Drawer } from '@material-ui/core';
-import { LinearProgress } from '@material-ui/core';
+// import { LinearProgress } from '@material-ui/core';
 import { CircularProgress } from '@material-ui/core';
 import Grid from '@material-ui/core/Grid'
 import { AddShoppingCart } from '@material-ui/icons';

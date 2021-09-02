@@ -12,7 +12,7 @@ export const Circularbar = styled.div`
 `
 
 export const StyledButton = styled(IconButton)`
- position: fixed;
+ position: absolute;
  z-index:100;
  top: 0%;
  right: 0%
