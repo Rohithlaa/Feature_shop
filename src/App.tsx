@@ -73,7 +73,7 @@ const App = () =>  {
   const handleRemoveCart = (id:number) => {
     setCartItem( prev => (
       prev.reduce( (ack, item) => {
-        if(item.id == id ){
+        if(item.id === id ){
           if(item.amount === 1) return ack;
           return [ ...ack,{ ...item, amount: item.amount - 1}]
 
